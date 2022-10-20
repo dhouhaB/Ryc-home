@@ -28,11 +28,19 @@
   
   </ion-list>
 
+  <!--
+ <app-pickup-call-card [hasHeader]= "hasHeader" [hasFooter]="false"></app-pickup-call-card>
+
+  -->
+  <app-pickup-call-card status="Hold" updateAt="09/12/2021" createdAt="07/12/2021" notes="blablabla">
+    <ion-card-header header >
+      <ion-card-subtitle>Last Pickup call </ion-card-subtitle>
   
- <app-pickup-call-card></app-pickup-call-card>
+    </ion-card-header>
 
+    <ion-button color="success" fill="clear" size="full" footer>Se all</ion-button>
 
-
+  </app-pickup-call-card>
 
 
  

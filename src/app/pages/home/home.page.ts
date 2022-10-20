@@ -6,6 +6,8 @@ import { PickupCallCardComponent } from 'src/app/commponents/pickup-call-card/pi
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+  public hasHeader = true;
+  public hasFooter = false;
 
   constructor() { }
 
